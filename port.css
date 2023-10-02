@@ -1,0 +1,76 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+}
+.back{
+    background-color: rgb(3, 159, 221);
+}
+.logo {
+    text-decoration: none;
+    color: white;
+    font-size: 3em;
+    padding: 3px 10px;
+    padding-left: 60px;
+}
+.menu a{
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    padding: 3px 10px;
+    word-spacing: 5px;
+    padding-right: 30px;
+    transition: 2s;
+}
+.menu a:last-child{
+    background-color: indianred;
+    border-radius: 5px;
+}
+.menu a:hover{
+    background-color: rgb(166, 166, 221);
+}
+.navi {
+    display: flex;
+    flex-direction: row;
+    justify-content:space-between;
+    align-items: center;
+    background-color: cadetblue;
+}
+img{
+    padding-top: 60px;
+    padding-left: 60px;
+    width: 35%;
+}
+h1{
+    color: black;
+    font-size: 3em;
+    padding-right: 320px;
+}
+.contact a{
+    background-color:black;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: 2s;
+    font-size: 30px;
+    color: white;
+}
+.contact a:hover{
+    background-color: rgb(172, 202, 192);
+    color:wheat;
+}
+.ban{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+.icons img{
+    height: 30px;
+    width: 30px;
+}
+.icons {
+    display: flex;
+    flex-direction: row;
+    justify-content:left;
+    align-items: flex-start;
+}
